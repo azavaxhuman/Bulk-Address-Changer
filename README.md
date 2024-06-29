@@ -8,7 +8,7 @@
 
 # How does it work ?
  1. Enter your inbound in the first field. For example, a vmess inbound!
-2. Enter your addresses or IPs in the second field. Separate them with a space.
+2. Enter your addresses or IPs in the second field. Separate them with ENTER.
 3. Click on the change address button.
 Congratulations, you have received inbound as many addresses or IPs as you have entered. Now you can copy it and enter it in your software.
 
