@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulk Address Changer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bulk Address Changer</h1>
+        <h2>By DailyigitalSkills</h2>
+        <div class="form-group">
+            <div class="label">Inbound Configuration</div>
+            <div class="input-group">
+                <input type="text" id="inboundConfig" placeholder="VMESS:// ... VLESS://... TROJAN://">
+                <button id="pasteInbound">Paste</button>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="label">Addresses to replace</div>
+            <div class="input-group">
+                <textarea id="addresses" placeholder="a.example.com &#10;104.0.0.1"></textarea>
+                <button id="pasteAddresses">Paste</button>
+            </div>
+        </div>
+        <button id="changeAddresses" >Change Addresses</button>
+        <div class="form-group hidden" id="outputGroup">
+            <div class="label">Modified Inbound Configurations</div>
+            <textarea id="output" style="height: auto;"></textarea>
+            <button id="copyToClipboard">Copy To Clipboard!</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
