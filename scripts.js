@@ -57,3 +57,12 @@ document.getElementById('inboundConfig').addEventListener('input', function() {
 document.getElementById('addresses').addEventListener('input', function() {
     adjustTextareaHeight(this);
 });
+document.getElementById('site').addEventListener('click', function () {
+    window.open('https://dailydigitalskills.online/', '_blank')
+  })
+
+  document.getElementById('youtube').addEventListener('click', function () {
+    window.open('https://www.youtube.com/channel/UCDBnd7heT6Gz6QgqtxvtuEw/', '_blank')
+  })
+
+  
