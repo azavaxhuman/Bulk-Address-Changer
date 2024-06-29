@@ -25,8 +25,14 @@ body {
 
 h1 {
     margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+h2 {
+    margin-bottom: 30px;
+    font-size: larger;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .form-group {
     margin-bottom: 20px;
 }
@@ -88,4 +94,31 @@ button:hover {
 
 .hidden {
     display: none;
+}
+#youtube {
+    margin-top: 20px;
+    width: auto;
+    background-color: rgb(255, 36, 36);
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: small;
+    font-weight: 600;
+    height: 40px;
+}
+
+#site {
+    margin-top: 20px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 7px;
+    color: #1d1d1d;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: small;
+    font-weight: 600;
+    height: 40px;
 }
